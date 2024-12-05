@@ -1,10 +1,7 @@
 public class Part8Lab1 {
     public static void main(String[] args) {
-        int n = 20;
-        int i = 1;
-        while (i <= n) {
+        for (int i = 1; i <= 20; i++)
             System.out.println(i);
-            i++;
+            
         }
     }
-}
